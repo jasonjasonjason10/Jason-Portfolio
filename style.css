@@ -73,7 +73,6 @@ body {
   color: white;
 }
 
-
 .name {
   color: rgb(212, 188, 161);
   text-align: center;
@@ -102,7 +101,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  
 }
 
 .homepgabtp {
@@ -115,4 +113,9 @@ body {
 .home-pic2 {
   width: 200px;
   margin: 10px 10px;
+}
+
+a {
+  color: rgb(16, 68, 25);
+  text-decoration: none;
 }
