@@ -48,7 +48,6 @@ body {
   text-align: center;
 }
 
-
 .buttons {
   background-color: rgb(176, 187, 241, 0.3);
   border-color: rgb(9, 37, 71);
@@ -64,12 +63,10 @@ body {
   text-shadow: 2px 2px 20px black;
 }
 
-
 .btn-text {
   color: rgb(4, 28, 58);
   text-decoration: none;
 }
-
 
 .buttons:hover {
   background-color: rgb(46, 73, 105, 0.3);
@@ -93,11 +90,9 @@ body {
   /* justify-content: space-between; */
 }
 
-
 .home-pic {
   width: 200px;
 }
-
 
 .homepgabt {
   background-color: rgb(128, 128, 128, 0.3);
@@ -107,13 +102,17 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  
 }
-
 
 .homepgabtp {
   display: inline-block;
   margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
-  color: black;
+}
+
+.home-pic2 {
+  width: 200px;
+  margin: 10px 10px;
 }
