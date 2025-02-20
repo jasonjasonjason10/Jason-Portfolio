@@ -1,121 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  /* background img effect not my code. Sourced from https://alvarotrigo.com/blog/animated-backgrounds-css/ */
 
+  background-image: url("https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg");
+  background-size: cover;
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
 
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 
-
-
-body  {
-    /* background img effect not my code. Sourced from https://alvarotrigo.com/blog/animated-backgrounds-css/ */
-
-    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-  background-size:cover;
-        -webkit-animation: slidein 100s;
-        animation: slidein 100s;
-
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
-
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;              
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 @-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
 }
 
 @keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
-
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
 }
 
-
-
-.navbar{
-     text-align: center;
-     
+.navbar {
+  text-align: center;
 }
-
-
 
 .buttons {
-     background-color: rgb(176, 187, 241, .3);
-     border-color: rgb(9, 37, 71);
-     border-style: solid;
-     border-width: 1px;
-     color: rgb(4, 28, 58);
-     height: 36px;
-     width: 62px;
-     border-radius: 20px;
-     cursor: pointer;
-     transition: background-color 0.15s, color 0.15s;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     text-shadow: 2px 2px 20px black;
-
+  background-color: rgb(176, 187, 241, 0.3);
+  border-color: rgb(9, 37, 71);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(4, 28, 58);
+  height: 36px;
+  width: 62px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px 20px black;
 }
 
-.btn-text{
-    color: rgb(4, 28, 58);
-    text-decoration: none;
+.btn-text {
+  color: rgb(4, 28, 58);
+  text-decoration: none;
 }
 
-.buttons:hover{
-     background-color:  rgb(46, 73, 105, .3);
-     color: white;
+.buttons:hover {
+  background-color: rgb(46, 73, 105, 0.3);
+  color: white;
 }
 
 .name {
-    color: rgb(212, 188, 161);
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
-    background-color: rgb(59, 62, 78, .6);
-    border-radius: 10px;
-    text-shadow: 2px 2px 20px black;
-    border: solid black 1px;
-    padding: 15px 10px;
-    margin: 20px 20px;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-
-
+  color: rgb(212, 188, 161);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  background-color: rgb(59, 62, 78, 0.6);
+  border-radius: 10px;
+  text-shadow: 2px 2px 20px black;
+  border: solid black 1px;
+  padding: 15px 10px;
+  margin: 20px 20px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
 }
 
-
-.home-pic{
-    width: 200px;
-    
-    
+.home-pic {
+  width: 200px;
 }
 
-.homepgabt{
-    background-color: rgb(128, 128, 128, .3);
-    border: solid rgb(248, 224, 193);
-    border-radius: 20px;
-    margin: 0px 15px;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    
-    
-    
+.homepgabt {
+  background-color: rgb(128, 128, 128, 0.3);
+  border: solid rgb(248, 224, 193);
+  border-radius: 20px;
+  margin: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
 }
 
-.homepgabtp{
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
+.homepgabtp {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.home-pic2 {
+  width: 200px;
+  margin: 10px 10px;
 }
